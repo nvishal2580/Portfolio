@@ -1,0 +1,114 @@
+:root {
+  --color: black;
+  --color2: pink;
+  --radius: 0.35rem;
+  --border-width: 2px;
+  --color-bg: white;
+  --offset: 0.5rem;
+  --transition: 0.3s;
+}
+
+.file1 {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.class1 {
+}
+
+.intro-title {
+  padding: 25% 25%;
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* @media only screen and (max-width: 768px) {
+    .file1{
+        width: 350px;
+        height: 300px;
+    }
+
+    
+} */
+
+.info {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-button {
+  font-weight: 600;
+  border: solid var(--border-width) var(--color);
+  outline: 0;
+  padding: 1rem 4rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.08rem;
+  background-color: var(--color-bg);
+  border-radius: var(--radius);
+  position: relative;
+  cursor: pointer;
+}
+
+.resume-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color2);
+  z-index: -1;
+  border-radius: var(--radius);
+  border: solid var(--border-width) var(--color);
+  transition: all var(--transition) ease-in-out;
+  width: 90%;
+  height: 90%;
+}
+
+.resume-button:hover::after {
+  width: 100%;
+  height: 100%;
+  top: var(--offset);
+  left: var(--offset);
+}
+
+.resume-btn-div {
+  margin-top: 50px;
+}
