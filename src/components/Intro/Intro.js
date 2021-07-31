@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Details } from "../../Data/Details";
 import Img from "../../Data/images/file1.svg";
 import "./Intro.css";
 const Intro = () => {
@@ -15,7 +16,9 @@ const Intro = () => {
               MERN Stack Developer & Programmer
             </div>
             <div className="text-center  resume-btn-div">
-              <button className="resume-button">Resume</button>
+              <a href={Details.Resume}>
+                <button className="resume-button">Resume</button>
+              </a>
             </div>
           </div>
         </Col>

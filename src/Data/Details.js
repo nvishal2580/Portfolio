@@ -5,6 +5,8 @@ export const Details = {
   Twitter: "https://twitter.com/vishal__nagar",
   Facebook: "https://www.facebook.com/vishal.nagar.710",
   Instagram: "https://www.instagram.com/vishalnagardhakad/",
+  Resume:
+    "https://drive.google.com/file/d/1aJ18qN5zReprYs6geoIskHaiTgUktIu4/view?usp=sharing",
 };
 
 export const Logos = {
@@ -31,37 +33,34 @@ export const Projects = [
     id: 12,
     title: " 🦠 Covid-Tracker ",
     tags: ["html", "css", "javascript"],
-    details:
-      "This is practice project. that mangage covid related info worldwide .",
+    details: "Static website to get info about covid related data .",
     github: "https://github.com/nvishal2580/covid-Tracker/",
     demo: "https://nvishal2580.github.io/covid-Tracker/",
   },
   {
     id: 13,
     title: " 💬 Chat-App ",
-    tags: ["html", "css", "javascript"],
+    tags: ["ReactJs", "nodeJs", "Socket"],
     details:
-      "This is practice project. that mangage covid related info worldwide .",
+      "Real-time chat application for communication.we can make different rooms for chat.",
     github: "https://github.com/nvishal2580/chat-app",
     demo: "https://chat-app-with-react-by-nvishal.herokuapp.com/",
   },
   {
-    id: 12,
+    id: 14,
     title: " 🧾 Expense Tracker ",
-    tags: ["html", "css", "javascript"],
-    details:
-      "This is practice project. that mangage covid related info worldwide .",
+    tags: ["ReactJs", "nodeJs", "mongoDB"],
+    details: "Track daily expenses and provide useful tools.",
     github: "https://github.com/nvishal2580/Expense-Tracker/",
     demo: "https://github.com/nvishal2580/Expense-Tracker",
   },
   {
-    id: 12,
+    id: 15,
     title: " 😎 Portfolio ",
-    tags: ["html", "css", "javascript"],
-    details:
-      "This is practice project. that mangage covid related info worldwide .",
-    github: "https://github.com/nvishal2580/covid-Tracker/",
-    demo: "https://nvishal2580.github.io/covid-Tracker/",
+    tags: ["css", "javascript", "ReactJs"],
+    details: "Portfolio website.",
+    github: "https://github.com/nvishal2580/Portfolio/",
+    demo: "",
   },
 ];
 
@@ -71,6 +70,11 @@ export const TagsColors = {
   javascript: "#FFD600",
   education: "#f4a261",
   project: "#e76f51",
+  ReactJs: "#61DBFB",
+  nodeJs: "#FFD600",
+  Redux: "#764ABC",
+  Socket: "#91D6E1",
+  mongoDB: "#3FA037",
 };
 
 export function getTagColor(tag) {
