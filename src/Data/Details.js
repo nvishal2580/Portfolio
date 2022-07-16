@@ -83,7 +83,7 @@ export const Projects = [
     title: " 🔢 Sudoku Solver ",
     tags: ["Python", "OpenCV", "Tenserflow"],
     details: "Build a machine learning model to solve the sudoku detecting from a Image",
-    github: "https://github.com/nvishal2580/Portfolio/",
+    github: "https://github.com/nvishal2580/Sudoku_solver/",
     demo: "",
   },
 ];
@@ -98,12 +98,12 @@ export const TagsColors = {
   NodeJs: "#FFD600",
   Redux: "#764ABC",
   Socket: "#91D6E1",
-  mongoDB: "#3FA037",
+  mongoDB: "#34D399",
   Firebase : "#FFCC2F",
   Tailwind: "#38BDF8",
   Python : "#67E8F9",
   OpenCV : "#A78BFA",
-  Tenserflow : "#1D2538"
+  Tenserflow : "#FB7185"
 };
 
 export function getTagColor(tag) {
