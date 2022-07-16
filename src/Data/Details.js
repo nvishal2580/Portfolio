@@ -100,7 +100,10 @@ export const TagsColors = {
   Socket: "#91D6E1",
   mongoDB: "#3FA037",
   Firebase : "#FFCC2F",
-  Tailwind: "#38BDF8"
+  Tailwind: "#38BDF8",
+  Python : "#67E8F9",
+  OpenCV : "#A78BFA",
+  Tenserflow : "#1D2538"
 };
 
 export function getTagColor(tag) {
