@@ -6,7 +6,7 @@ export const Details = {
   Facebook: "https://www.facebook.com/vishal.nagar.710",
   Instagram: "https://www.instagram.com/vishalnagardhakad/",
   Resume:
-    "https://drive.google.com/file/d/1aJ18qN5zReprYs6geoIskHaiTgUktIu4/view?usp=sharing",
+    "https://drive.google.com/file/d/1bLq3-MUDjWnbx46pIigfDB_nopxl1rs7/view?usp=sharing",
 };
 
 export const Logos = {
@@ -40,7 +40,7 @@ export const Projects = [
   {
     id: 13,
     title: " 💬 Chat-App ",
-    tags: ["ReactJs", "nodeJs", "Socket"],
+    tags: ["ReactJs", "NodeJs", "Socket"],
     details:
       "Real-time chat application for communication.we can make different rooms for chat.",
     github: "https://github.com/nvishal2580/chat-app",
@@ -49,7 +49,7 @@ export const Projects = [
   {
     id: 14,
     title: " 🧾 Expense Tracker ",
-    tags: ["ReactJs", "nodeJs", "mongoDB"],
+    tags: ["ReactJs", "NodeJs", "mongoDB"],
     details: "Track daily expenses and provide useful tools.",
     github: "https://github.com/nvishal2580/Expense-Tracker/",
     demo: "https://github.com/nvishal2580/Expense-Tracker",
@@ -62,6 +62,30 @@ export const Projects = [
     github: "https://github.com/nvishal2580/Portfolio/",
     demo: "",
   },
+  {
+    id: 16,
+    title: " 📃 Uptodo ",
+    tags: ["ReactJs", "Firebase", "Tailwind"],
+    details: "Web app to manage tasks and collaborate with team members to work on a project.",
+    github: "https://github.com/nvishal2580/Uptodo/",
+    demo: "https://up-todo.netlify.app/",
+  },
+  {
+    id: 17,
+    title: " ♟️ Chess Game ",
+    tags: ["ReactJs", "NodeJs", "Socket"],
+    details: "A fun chess game to play with friends.",
+    github: "https://github.com/nvishal2580/Chess_game/",
+    demo: "",
+  },
+  {
+    id: 18,
+    title: " 🔢 Sudoku Solver ",
+    tags: ["Python", "OpenCV", "Tenserflow"],
+    details: "Build a machine learning model to solve the sudoku detecting from a Image",
+    github: "https://github.com/nvishal2580/Portfolio/",
+    demo: "",
+  },
 ];
 
 export const TagsColors = {
@@ -71,10 +95,12 @@ export const TagsColors = {
   education: "#f4a261",
   project: "#e76f51",
   ReactJs: "#61DBFB",
-  nodeJs: "#FFD600",
+  NodeJs: "#FFD600",
   Redux: "#764ABC",
   Socket: "#91D6E1",
   mongoDB: "#3FA037",
+  Firebase : "#FFCC2F",
+  Tailwind: "#38BDF8"
 };
 
 export function getTagColor(tag) {
